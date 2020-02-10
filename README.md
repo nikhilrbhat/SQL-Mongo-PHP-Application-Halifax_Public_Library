@@ -1,6 +1,6 @@
 # Halifax Public Library
 
-Technology Used : SQL, Mongo, JavaScript and PHP
+Technology Used : SQL, Mongo, Python and PHP
 
 The project focused on improving the existing database design of Halifax Public library. 
 
@@ -14,7 +14,7 @@ o To record monthly expenses
 
 An EER diagram was created to understand all the data requirements and identify the entities, relationships and its attributes. All the relations were normalized to 3NF and a relational database schema was created. 
 
-The raw data initially available in json formats was loaded in the mongo DB using scripts which was further processed in java and then imported into the newly created SQL tables.
+The raw data initially available in json formats was loaded in the mongo DB using scripts which was further processed in python and then imported into the newly created SQL tables.
 
 A PHP web application was created to allow the users to access the database. 
 
