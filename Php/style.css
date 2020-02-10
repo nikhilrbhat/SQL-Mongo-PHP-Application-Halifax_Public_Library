@@ -1,0 +1,88 @@
+body{
+	margin:0px;
+}
+
+.background-image {
+  background-image: url('Books1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 10px;
+  left: 0;
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
+  height:100%;
+}
+
+.hslTitle{
+	color:#fff;
+	font-size:75px;
+}
+
+p{
+	color:#fff;
+}
+
+a, a:focus, a:hover,a:active{
+	color:#fff !important;
+	text-decoration:none !important;
+}
+.p1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.homeA a{
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+}
+
+.tblCont,.content h1{
+	color:#fff;
+}
+
+.tdata {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tdata td, .tdata th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tdata  tr:nth-child(even){background-color: #f2f2f2;}
+.tdata  tr:nth-child(odd){background-color: #fff;}
+
+.tdata  tr:hover {background-color: #ddd;}
+
+.tdata  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.tdata td{
+  color:black;
+}
